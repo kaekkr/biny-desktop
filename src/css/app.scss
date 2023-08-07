@@ -1,10 +1,36 @@
 // app global css in SCSS form
 
+body {
+  background-color: #f7f7f8;
+}
+
 .white-box {
   border-radius: 12px;
 }
 
-.icon {
-  width: 44px;
-  height: 44px;
+.gray-name {
+  color: #aeafb5;
 }
+
+.test {
+  background-color: #FAFAFA;
+  border: 2px solid #ecedee;
+  border-radius: 12px;
+}
+
+.q-item {
+  min-height: 0px;
+}
+
+.q-field--outlined .q-field__control {
+  border-radius: 12px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.q-field--auto-height .q-field__control, .q-field--auto-height .q-field__native {
+  min-height: 0px;
+}
+
+
